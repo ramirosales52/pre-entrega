@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Avatar VR">
+  <rect width="160" height="160" rx="80" fill="#f6e6dc"/>
+  <circle cx="80" cy="62" r="26" fill="#8f3f21" opacity="0.85"/>
+  <path d="M24 152c0-31 25-52 56-52s56 21 56 52Z" fill="#8f3f21" opacity="0.85"/>
+</svg>
