@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Paleta: café de especialidad */
+  --color-espresso-50: #f7f3ef;
+  --color-espresso-100: #ece1d6;
+  --color-espresso-200: #d6c0aa;
+  --color-espresso-300: #b9977a;
+  --color-espresso-400: #9c7554;
+  --color-espresso-500: #7d583b;
+  --color-espresso-600: #63442e;
+  --color-espresso-700: #4d3423;
+  --color-espresso-800: #3a281b;
+  --color-espresso-900: #26190f;
+  --color-espresso-950: #170e08;
+
+  --color-oat-50: #fdfbf7;
+  --color-oat-100: #f8f2e9;
+  --color-oat-200: #efe4d4;
+
+  --color-terracotta-300: #e8a68c;
+  --color-terracotta-400: #dd8462;
+  --color-terracotta-500: #c96a45;
+  --color-terracotta-600: #a9522f;
+
+  --color-leaf-400: #7f9b6a;
+  --color-leaf-500: #627c4c;
+  --color-leaf-600: #4c6239;
+
+  /* Tipografías */
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Animación */
+  --animate-fade-up: fade-up 0.5s ease-out both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-oat-50 font-sans text-espresso-800 antialiased;
+  }
+
+  ::selection {
+    @apply bg-terracotta-300 text-espresso-900;
+  }
+}
