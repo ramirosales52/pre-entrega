@@ -22,11 +22,7 @@ function Carrito() {
       <h1 className="mt-2 font-display text-4xl font-semibold text-espresso-900 sm:text-5xl">
         Tu carrito está vacío
       </h1>
-      <p className="mx-auto mt-4 max-w-lg text-espresso-600">
-        Esta pantalla forma parte del ruteo de la pre-entrega. El carrito con{' '}
-        <span className="font-semibold text-espresso-800">Context API</span> se implementa
-        para la entrega final.
-      </p>
+
 
       <div className="mt-8 flex flex-wrap justify-center gap-3">
         <Link
